@@ -1,4 +1,4 @@
-#Coffee Database Web App
+Coffee Database Web App
 
 This is my code for a web app that allows a user to add a recipe for brewing coffee to a Firestore database, and also retrieve the list of recipes for a particular brewer in the database.
 
