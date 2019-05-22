@@ -74,6 +74,7 @@ class Recipe extends React.Component
                     options = {this.state.brewers}
                     name = "selectedBrewer"
                     onChange = {this.updateBrewer}
+                    value = {this.state.selectedBrewer}
                     required
                 />
                 <p>
@@ -121,11 +122,11 @@ class Recipe extends React.Component
             seconds: this.state.seconds,
         });
         this.setState({
-            coffee:null,
-            water:null,
-            selectedBrewer:null,
-            minutes:null,
-            seconds:null,
+            coffee:"",
+            water:"",
+            selectedBrewer:"",
+            minutes:"",
+            seconds:"",
         });
     }
 
